@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7em;
+        }
+
+        h1,h2,h3{
+            padding-bottom: 20px;
+        }
+
+        p{
+            margin-bottom: 10px 0;
+        }
+
+
+        a{
+            text-decoration: none;
+            color: #333;
+        }
+
+        .container{
+            margin: auto;
+            /* max-width: 1100px; */
+            overflow: auto;
+            padding: 0 20px;
+        }
+            /* nav */
+        #nav{
+            background-color: #333;
+            color: white;
+            overflow: auto;
+        }
+
+        #nav h1{
+            float: left;
+            padding-top: 20px;
+        }
+
+        #nav ul{
+            list-style: none;
+            float: right;
+        }
+
+        #nav ul li{
+            float: left;
+        }
+
+        #nav ul li a {
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: block;;
+        }
+
+        #nav ul li a:hover, #nav ul li a.current{
+            background-color: #444;
+            color: #f7c08a;
+        }
+
+        .primary{
+            color: #f7c08a;
+        }
+
+        /* Display */
+        .display .contained{
+            background: url(../Images/showcase.jpg) no-repeat center center/cover;
+            text-align: center;
+            padding-top: 170px;
+            height: 600px;
+        }
+
+        .display .contained h1{
+            font-size: 60px;
+            line-height: 1.7em;
+            color: white;
+            
+        }
+
+        .text{
+            font-size: 20px;
+            color: white;
+            line-height: 1.7em;
+        }
+
+        .button{
+            display: inline-block;
+            padding: 13px 20px;
+            background-color: #333;
+            color: white;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+
+        .button:hover{
+            background-color: #f7c08a;
+            color: #333;
+        }
+        /* Section  */
+        .section{
+            height: 400px;
+        }
+
+          .lightbutton{
+            background-color: #fff;
+            color:#333;
+        }
+
+        .section h1{
+            font-size: 30px;
+        }
+
+        .section .img{
+            float: left;
+            background: url('../img/photo-1.jpg');
+            width: 50%;
+            min-height: 100%;
+        }
+
+        .section .content{
+            float: right;
+            width: 50%;
+            text-align: center;
+            background-color: #333;
+            padding: 50px 30px;
+            color: white;
+            height: 100%;
+            /* overflow: hidden; */
+            
+        }
+
+        .section .content p{
+            padding-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="container">
+                <h1>HBT</h1>
+            <ul>
+                <li><a href="retake.html" class="current">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            
+        </nav>
+
+        <div class="display">
+            <div class="contained">
+                <div class="display-content">
+                    <h1><span class="primary">Enjoy</span> your Stay</h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati architecto nisi ducimus quis, voluptatibus aperiam.</p>
+                    <a href="about.html" class="button">About Our Hotel</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section">
+        <div class="img"></div>
+            <div class="content">
+                <h1><span class="primary"> The History</span> Of Our Hotel</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga accusamus deleniti in dicta, rem, sapiente, voluptates ex consectetur beatae nemo cupiditate molestias eius quae maiores. Exercitationem tempora, vero cum veritatis perferendis ducimus quos numquam quasi commodi odit eligendi sequi adipisci?</p>
+                        <a href="about.html" class="button lightbutton">Read More</a>
+            </div>
+
+            <section>
+                
+            </section>
+    </div>
+</body>
+</html>
